@@ -1,0 +1,19 @@
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row1\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+(script-fu-fix-bad-ccd-pixels "C:\\Users\\ipower\\Desktop\\testing\\row3\\*.tif" "C:\\Users\\ipower\\Desktop\\testing\\mask-black-points.png")
+
+PATH=%PATH%;C:\Program Files\GIMP 2\bin
+
+gimp-2.8
+
