@@ -1,5 +1,5 @@
 (define (script-fu-fix-bad-ccd-pixels pattern selectionLayerFileName)
-        ;(gimp-message pattern) 
+  ;(gimp-message pattern) 
   (let* ((filelist (cadr (file-glob pattern 1))))
     (while (not (null? filelist))
       (let* (
@@ -9,9 +9,10 @@
             ; Open bad ccd pixel image
             (loadedLayer (car (gimp-file-load-layer RUN-NONINTERACTIVE image selectionLayerFileName)))
             )
-		(gimp-image-insert-layer image loadedLayer 0 -1)
-		;(gimp-message-set-handler 2)
-		;(gimp-message selectionLayerFileName) 		
+
+        (gimp-image-insert-layer image loadedLayer 0 -1)
+        ;(gimp-message-set-handler 2)
+        ;(gimp-message selectionLayerFileName) 		
         ;(gimp-message (string-append (car (gimp-image-get-filename image)))) 
         (gimp-image-select-item image 0 loadedLayer)
 
@@ -33,14 +34,3 @@
     )
   )
 )
-
-;(script-fu-register "script-fu-fix-bad-ccd-pixels"
-;                    "<Image>/Filters/Enhance/Fix CCD Pix..."
-;                    "Loops through layers healing selection (bad pixels)"
-;                    "Solar Anamnesis <ttrott@tutanota.com>"
-;                    "Solar Anamnesis"
-;                    "2016/12/12"
-;                    "*"
-;                    SF-IMAGE "Image" 0
-;                    SF-DRAWABLE "Drawable" 0
-;					SF-STRING "Alpha Selection Layer Name" "Text")
